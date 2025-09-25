@@ -1,24 +1,82 @@
-body {
-  background-color: rgb(48, 90, 84);
+:root {
+  --DarkCyan: #008B8B;
+  --DarkBlue: #00008B;
+  --Gold: #FFD700;
+  --LightCyan: #E0FFFF;
+  --SkyBlue: #87CEEB;
+  --Plum: #DDA0DD;
+  --Tan: #D2B48C;
+  --Maroon: #800000;
+  --Khaki: #F0E68C;
+  --HoneyDew: #F0FFF0;
+  --Lime: #00FF00;
+  font-family: monospace;
 }
-
-.header {
-  background-image: url(https://i.ibb.co.com/DH4MnXXn/Image-Assets.png);
-  border-radius: 10px;
+/* Auto */
+#Auto {
+  background-color: #87CEEB;
+  font-size: 1.5em;
+  font-weight: normal;
   text-align: center;
-  line-height: 100%;
+  height: 50px;
+  width: 20%;
+  display: block;
+  margin:  auto;
+  padding: auto;
+  border: 5px solid #00FF00;
+}
+/* Auto */
 
+/* Hidden */
+#Hidden {
+  float: right;
+  background-color: #FFD700;
+  width: 15%;
+  height: 63px;
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: 700;
+  margin: -0.2px 20.7% -0.1% 1px;
+  padding: 1px 2% 0% 26px;
+  text-align: center;
+}
+/* Hidden */
+
+/* Scroll */
+#Scroll {
+  text-align: center;
+  float: left;
+  font-weight: 700;
+  background-color: #00008B;
+  color: #E0FFFF;  
+  max-width: 13%;
+  height: 63px;
+  width: 30%;
+  font-size: 1.5em;
+  overflow: scroll;
+  margin: -64.9px 24.1% 10% 331px;
+  padding: 1px 1% 2px 14px;
+  border: 0.1px solid #F0FFF0;
+}
+/* Scroll */
+
+/* Visible */
+#Visible {
+  float: right;
+  background-color: #00008B;
+  width: 20.4%;
+  height: 25px;
+  color: #F0E68C;
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.5em;
+  overflow: visible;
+  margin: -135.5px 39.7%;
+  text-align: center;
 }
 
-.leftbar, .rightbar {
-  width: 51%;
-  height: 250px;
-  background-color: rgb(141, 196, 255);
-  border-radius: 10px;
-}
-
-.footer {
-  background-color: rgb(144, 247, 136);
-  border-radius: 10px;
-  height: 400px;
+.TextFix {
+  font-weight: 500;
+  font-style: normal;
+  cursor: default; 
 }
